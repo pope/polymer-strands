@@ -1,0 +1,3 @@
+[submodule "vulcanize"]
+	path = vulcanize
+	url = https://github.com/Polymer/vulcanize.git
