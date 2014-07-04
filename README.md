@@ -1,6 +1,9 @@
 polymer-strands
 ===============
 
+[![Build Status](https://travis-ci.org/pope/polymer-strands.svg?branch=master)](https://travis-ci.org/pope/polymer-strands)
+[![Analytics](https://ga-beacon.appspot.com/UA-280328-3/pope/polymer-strands/README)](https://github.com/igrigorik/ga-beacon)
+
 A tool to understand the dependencies of web components.
 
 `polymer-strands` can read an HTML file and then list out all of the
@@ -88,8 +91,6 @@ your site if the user it just viewing content.
 - Come up with a real-world example and mini tutorial for component
   modules.
 
-
-[![Analytics](https://ga-beacon.appspot.com/UA-280328-3/pope/polymer-strands/README)](https://github.com/igrigorik/ga-beacon)
 
 [HTMLImports]: https://github.com/polymer/HTMLImports
 [Go]: http://golang.org
