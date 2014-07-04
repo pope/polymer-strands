@@ -1,0 +1,22 @@
+<link rel="import" href="heading.html">
+<template>
+  <div>
+    <x-heading>Hello</x-heading>
+    <content></content>
+  </div>
+</template>
+<script>
+ (function(global) {
+   var tmpl = document.currentScript.ownerDocument.querySelector('template');
+   this.Hello = document.registerElement('x-hello', {
+     prototype: Object.create(HTMLElement.prototype, {
+       createdCallback: {
+         value: function() {
+           var root = this.createShadowRoot();
+           root.appendChild(document.importNode(tmpl.content, true));
+         }
+       }
+     })
+   });
+ })(this);
+</script>
