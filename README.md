@@ -22,9 +22,11 @@ your `GOPATH`.
 
     go get github.com/pope/polymer-strands
 
-### TODO
+If you do not have Go installed, feel free to
+[download a binary][download] for your platform.
 
-- Create pre-built binaries of polymer-strands.
+The binaries were built using the awesome tools of [gonative][] and
+[gox][].
 
 Usage
 -----
@@ -97,3 +99,6 @@ your site if the user it just viewing content.
 [tsort]: https://www.gnu.org/software/coreutils/manual/html_node/tsort-invocation.html
 [Vulcanize]: https://github.com/Polymer/vulcanize
 [DOT]: http://en.wikipedia.org/wiki/DOT_(graph_description_language)
+[download]: https://github.com/pope/polymer-strands/releases/latest
+[gonative]: https://github.com/inconshreveable/gonative
+[gox]: https://github.com/mitchellh/gox
